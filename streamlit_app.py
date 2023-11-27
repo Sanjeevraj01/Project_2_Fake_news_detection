@@ -27,7 +27,8 @@ def main():
   
   st.title("Fake News Prediction System")
   st.write("""## Input your News Article down below: """)
-  user_text = st.text_input('label','',label_visibility="hidden")
+  # user_text = st.text_input('label','',label_visibility="hidden")
+  user_text = st.text_area('')
   if st.button("Predict"):
     news_pred = news_prediction(user_text)
     
