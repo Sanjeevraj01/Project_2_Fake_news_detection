@@ -2,7 +2,7 @@
 import pandas as pd
 import streamlit as st 
 import pickle 
-from pathlib import Path
+# from pathlib import Path
 
 load = pickle.load(open('lr_classifier.sav',"rb"))
 
