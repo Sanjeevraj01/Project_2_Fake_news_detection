@@ -1,8 +1,7 @@
 # import libraries 
 import pandas as pd
 import streamlit as st 
-import pickle 
-# from pathlib import Path
+import pickle
 
 load = pickle.load(open('lr_classifier.sav',"rb"))
 
